@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+</head>
+<body>
+    <center>
+        <h2>Media</h2>
+        <h3>Video</h3>
+        <video src="video.mp4" controls height=auto width=50%>Sample Video</video>  
+        <!-- it is reccomended to keep the preload on metadata it will download its thumbnail only then 
+        it chached and when user wants to play the video it will start downloading at that moment -->
+        <!-- if you are sure that user will se the video then it is good keep the preload on the metadata which is default -->
+        <!-- more attributes of video like controls are autoplay loop, preload -->
+        <!-- if photo does not load then alt tab syntax will show up or it will be helpful for blind people to read it out -->
+        <br>
+        
+        <h3>Audio</h3>
+        <!-- Audio has the same content as that of the video -->
+        <audio controls width=40% height=auto src="music.mp3">Sample audio</audio>
+        <h3>Image</h3>
+        <br><img src="image.jpg" alt="Butterfly Photo" width=30% height=auto> 
+        <!-- this height and width is used to make the photo responsive to the screen size -->
+        
+    </center>
+    
+</body>
+</html>
